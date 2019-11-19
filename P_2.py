@@ -27,7 +27,7 @@ ventana.geometry('800x600')
 ventana.title("Parcial")
 
 # Fetch the service account key JSON file contents
-cred = credentials.Certificate('key/key.json')
+cred = credentials.Certificate('llave/llave.json')
 # Initialize the app with a service account, granting admin privileges
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://parcial-2b50d.firebaseio.com/'
